@@ -38,4 +38,4 @@ jobs:
 
       with:
 
-        creds: '{"clientId":"${{ secrets.AZURE_ACR_CLIENT_ID }}","subscriptionId":"${{ secrets.AZURE_SUBSCRIPTION_ID }}","tenantId":"${{ secrets.TENANT_ID }}"}'
+        creds: '{"clientId":"${{ secrets.Azure_client_id }}","subscriptionId":"${{ secrets.Azure_subscription_id }}","tenantId":"${{ secrets.Azure_tenant_id }}"}'
